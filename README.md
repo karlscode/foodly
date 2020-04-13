@@ -2,6 +2,8 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
 </h4>
 
+<h3 align="center"> Foodly <h3>
+
 <br>
 
 <p align="center">
@@ -22,13 +24,13 @@
 <br>
 
 <p align="center">
-  <a href="#iniciando-com-front-end-rocket">Front-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!-- <a href="#iniciando-com-front-end-rocket">Front-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#iniciando-no-back-end-rocket">Back-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-e-agora">E agora</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-e-agora">E agora</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
   <a href="#memo-licença">Licença</a>
 </p>
 
-## Iniciando com front-end :rocket:
+<!-- ## Iniciando com front-end :rocket:
 
 Neste módulo foram abordados diversos tópicos relacionados a front-end, sendo eles:
 
@@ -50,7 +52,9 @@ No módulo de Back-end no fomos introduzidos ao `nodejs` e `npm` para fazer a in
 
 ## 🤔 E agora? 
 
-Como objetivo pessoal, não dou este projeto como finalizado. Aplicarei neste, melhorias ao longo da minha evolução como desenvolvedor.
+Como objetivo pessoal, não dou este projeto como finalizado. Aplicarei neste, melhorias ao longo da minha evolução como desenvolvedor. -->
+
+### :wrench: Projeto em construção...
 
 ## :memo: Licença
 
