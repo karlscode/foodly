@@ -6,9 +6,9 @@
 
 {% block content %}
     <div id="wrapper">
-        {% for description in about %}
-            <h3> {% description.title %} </h3>
-            <p> {% description.text %} </p>
+        {% for item in about %}
+            <h3> {{ item.title }} </h3>
+            <p> {{ item.text }} </p>
         {% endfor %}
     </div>
 {% endblock %}

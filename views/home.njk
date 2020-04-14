@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <section class="card_home">
+        <div class="card__home">
+            <h1>As melhores receitas</h1>
+            <p>prenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
+            <img src="assets/chef.png" alt="Picture of chef">
+        </div>
+    </section>
+        
+    <h3>Mais acessadas</h3>
+
+    <section class=cards>
+
+        {% for recipe in recipes %}
+            <div class="card {{ 'featured-wrapper' if item.featured }}" id={{ recipe.id }}>
+                {% if item.featured %}
+                    <div class="card__image-container">
+                        <img src="{{ recipe.src }}" alt="Picture of {{ recipe.title }}">
+                    </div>
+
+                    <div class="card__content">
+                        <p> {{ recipe.title }} </p>
+                    </div>
+
+                    <div class="card__by">
+                        <p> {{ recipe.by }} </p>
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+    </section>
+{% endblock content %}

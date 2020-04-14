@@ -16,10 +16,14 @@ nunjucks.configure("../views", {
 })
 
 server.get("/", function(req, resp) {
+    return resp.render("home", { recipes })
+})
+
+server.get("/about", function(req, resp) {
     return resp.render("about", { about })
 })
 
-server("/recipes", function(req, resp) {
+server.get("/recipes", function(req, resp) {
     return resp.render("recipes", { recipes })
 })
 

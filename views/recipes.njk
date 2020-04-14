@@ -1,0 +1,39 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Recipes</title>
+{% endblock head %}
+
+{% block content %}
+    <section class=cards>
+        {% for recipe in recipes %}
+            <div class="card" id={{ recipe.id }}>
+                <div class="card__image-container">
+                    <img src="{{ recipe.src }}" alt="Picture of {{ recipe.title }}">
+                </div>
+
+                <div class="card__content">
+                    <p> {{ recipe.title }} </p>
+                </div>
+
+                <div class="card__by">
+                    <p> {{ recipe.by }} </p>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i>close</i>
+            </a>
+
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+{% endblock content %}

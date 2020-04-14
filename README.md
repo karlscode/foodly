@@ -54,7 +54,7 @@ No módulo de Back-end no fomos introduzidos ao `nodejs` e `npm` para fazer a in
 
 Como objetivo pessoal, não dou este projeto como finalizado. Aplicarei neste, melhorias ao longo da minha evolução como desenvolvedor. -->
 
-### :wrench: Projeto em construção...
+<h3 align="center"> :wrench: <strong>Projeto em construção...</h3>
 
 ## :memo: Licença
 
