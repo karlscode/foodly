@@ -8,15 +8,15 @@
 
 <p align="center">
   <a href="">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/karlscode/Be-The-Hero?color=yellow">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/karlscode/Be-The-Hero?color=%23F7DF1E">
   </a>
 
   <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-yellow">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F7DF1E">
   </a>
 
   <a href="https://opensource.org/licenses/MIT">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-yellow">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F7DF1E">
   </a>
 
 </p>
