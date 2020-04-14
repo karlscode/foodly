@@ -3,32 +3,34 @@
 {% block content %}
     <section class="card_home">
         <div class="card__home">
-            <h1>As melhores receitas</h1>
+            <h3>As melhores receitas</h3>
             <p>prenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
-            <img src="assets/chef.png" alt="Picture of chef">
+            <img align="right" src="assets/chef.png" alt="Picture of chef">
         </div>
     </section>
-        
-    <h3>Mais acessadas</h3>
 
-    <section class=cards>
+    <div class="featured">
+        <p>Mais acessadas</p>
+    </div> 
+
+    <section class="cards">
 
         {% for recipe in recipes %}
-            <div class="card {{ 'featured-wrapper' if item.featured }}" id={{ recipe.id }}>
-                {% if item.featured %}
+            {% if recipe.featured %}
+                <div class="card {{ 'featured-wrapper' if recipe.featured }}" id={{ recipe.id }}>
                     <div class="card__image-container">
                         <img src="{{ recipe.src }}" alt="Picture of {{ recipe.title }}">
                     </div>
 
-                    <div class="card__content">
+                    <div class="card__title">
                         <p> {{ recipe.title }} </p>
                     </div>
 
                     <div class="card__by">
-                        <p> {{ recipe.by }} </p>
+                        <p> por {{ recipe.by }} </p>
                     </div>
-                {% endif %}
-            </div>
+                </div>
+            {% endif %}
         {% endfor %}
 
     </section>
