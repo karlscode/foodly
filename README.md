@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/karlscode/Be-The-Hero?color=%23F8952D">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/karlscode/Be-The-Hero?color=yellow">
   </a>
 
   <a href="https://rocketseat.com.br">
