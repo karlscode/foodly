@@ -2,9 +2,9 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
 </h4>
 
-<h3 align="center"> Foodly <h3>
-
 <br>
+
+<h3 align="center"> Foodly <h3>
 
 <p align="center">
   <a href="">
