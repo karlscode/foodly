@@ -7,7 +7,7 @@
 {% block content %}
     <section class=cards>
         {% for recipe in recipes %}
-            <div class="card" id={{ recipe.id }}>
+            <div class="card" id="{{ recipe.id }}">
                 <div class="card__image-container">
                     <img src="{{ recipe.src }}" alt="Picture of {{ recipe.title }}">
                 </div>

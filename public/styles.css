@@ -29,8 +29,6 @@ header a {
 }
 
 .logo {
-    /* width: 90.6px;
-    height: 26.9px; */
     margin-top: 36px;
     margin-right: 122px;
     margin-bottom: 30px;
@@ -49,24 +47,19 @@ header a {
     text-decoration: none;
 }
 
-.card__home {
+.home__container {
     background-color: #FBDFDB;
     border-radius: 30px;
-    text-align: left;
+    box-sizing: border-box;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    
 }
 
-.card__home img {
-    /* width: 216px;
-    height: 300px; */
-    flex-grow: 1;
-}
-
-.card__home h3 {
-    /* width: 305px;
-    height: 38px; */
+.home__box h3 {
+    width: 305px;
+    height: 38px;
     margin-left: 60px;
     margin-top: 117px;
     margin-bottom: 10px;
@@ -74,13 +67,22 @@ header a {
     font-family: 'Roboto-Bold';
 }
 
-.card__home p {
-    /* width: 316px;
-    height: 28px; */
+.home__box p {
+    width: 316px;
+    height: 84px;
     margin-left: 60px;
-    margin-top: 165px;
+    margin-top: 10px;
+    margin-bottom: 117px;
     font-size: 18px;
     font-family: 'Roboto-Regular';
+}
+
+.home__box img {
+    width: 216px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 66px;
+    margin-left: 248px;
 }
 
 .featured {

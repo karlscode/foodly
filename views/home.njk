@@ -1,12 +1,17 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-    <section class="card_home">
-        <div class="card__home">
-            <h3>As melhores receitas</h3>
-            <p>prenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
-            <img align="right" src="assets/chef.png" alt="Picture of chef">
-        </div>
+    <section class="home__container">
+        
+            <div class="home__box">
+                <h3>As melhores receitas</h3>
+                <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
+            </div>
+
+            <div class="home__box">
+                <img src="assets/chef.png" alt="Picture of chef"/>
+            </div>
+        
     </section>
 
     <div class="featured">
@@ -17,7 +22,7 @@
 
         {% for recipe in recipes %}
             {% if recipe.featured %}
-                <div class="card {{ 'featured-wrapper' if recipe.featured }}" id={{ recipe.id }}>
+                <div class="card {{ 'featured-wrapper' if recipe.featured }}" id="{{ recipe.id }}">
                     <div class="card__image-container">
                         <img src="{{ recipe.src }}" alt="Picture of {{ recipe.title }}">
                     </div>
