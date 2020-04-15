@@ -2,20 +2,19 @@
 
 :root {
     --font-color: #111111;
-
 }
 
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     margin-left: 230px;
     margin-right: 230px;
     background: white;
-    font-family: 'Roboto-Regular', sans-serif;
     color: var(--font-color);
 }
 
@@ -30,8 +29,6 @@ header a {
 
 .logo {
     margin-top: 36px;
-    margin-right: 122px;
-    margin-bottom: 30px;
 }
 
 .links {
@@ -43,11 +40,11 @@ header a {
 .links a {
     color: var(--font-color);
     font-size: 16px;
-    font-family: 'Roboto-Regular';
     text-decoration: none;
 }
 
 .home__container {
+    margin-top: 30px;
     background-color: #FBDFDB;
     border-radius: 30px;
     box-sizing: border-box;
@@ -64,7 +61,7 @@ header a {
     margin-top: 117px;
     margin-bottom: 10px;
     font-size: 32px;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
 }
 
 .home__box p {
@@ -74,7 +71,6 @@ header a {
     margin-top: 10px;
     margin-bottom: 117px;
     font-size: 18px;
-    font-family: 'Roboto-Regular';
 }
 
 .home__box img {
@@ -107,14 +103,21 @@ header a {
 
 #wrapper {
     text-align: justify;
-    font-family: 'Roboto-Regular';
+    color: #111111;
 }
 
-#wrapper h3 {
+.common {
     font-size: 20px;
-    color: #111111;
     font-weight: bold;
     margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.spotlight {
+    font-size: 24px;
+    color: #111111;
+    font-weight: bold;
+    margin-top: 14px;
     margin-bottom: 20px;
 }
 
@@ -156,12 +159,18 @@ header a {
     color: #777777;
 }
 
+#cards_home {
+    cursor: not-allowed;
+}
+
 /* === MODAL === */
 
 .modal-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
+    margin-left: -230px;
+    margin-right: -230px;
     position: fixed;
     top: 0;
     opacity: 0;
@@ -169,18 +178,23 @@ header a {
 }
 
 .modal {
-    background-color: white;
-    width: 90%;
+    background-color:white;
+    width: 80%;
     height: 90%;
-    margin: 5vh auto;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
+    margin-top: 50px;
+    margin-bottom: auto;
+    position: relative;
+    border-radius: 30px;
 }
 
 .modal .close-modal {
     color: black;
     position: absolute;
-    right: 8px;
-    top: 8px;
+    right: 50%;
+    bottom: 8px;
     cursor: pointer;
 }
 

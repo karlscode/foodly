@@ -2,7 +2,7 @@ module.exports = [
     {
         id: "1",
         title: "Triplo bacon burger",
-        recipe: "",
+        recipe: "Desvendando o CSS Grid na prática | Mayk Brito",
         by: "Jorge Relato",
         featured: true,
         src: "assets/burger.png"

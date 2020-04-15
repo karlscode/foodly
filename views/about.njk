@@ -6,9 +6,21 @@
 
 {% block content %}
     <div id="wrapper">
+        
+        <h3 class='spotlight'>Sobre o Foodly</h3>
+        
         {% for item in about %}
-            <h3> {{ item.title }} </h3>
-            <p> {{ item.text }} </p>
+            {% if item.common %}
+                <h3 class="common">
+                    {{ item.title }} 
+                </h3>  
+            {% endif %}
+
+            {% for texts in item.text %}
+                <p> 
+                    {{ texts.paragraph }}
+                </p>
+            {% endfor %}            
         {% endfor %}
     </div>
 {% endblock %}

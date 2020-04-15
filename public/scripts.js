@@ -1,18 +1,11 @@
-const recipes = require("./database/recipes")
-
 const modalOverlay = document.querySelector('.modal-overlay')
 const cards = document.querySelectorAll('.card')
 
 for (let card of cards) {
     card.addEventListener("click", function() {
-        const recipeId = card.getAttribute("id")
+        const recipeModal = card.getAttribute("recipes_modal")
         modalOverlay.classList.add('active')
-
-        for (const recipeId of recipes) {
-            if (recipeId == recipes.id) {
-                modalOverlay.querySelector("iframe").src = recipes.recipe
-            }
-        }
+        modalOverlay.querySelector("iframe").src = recipeModal
     })
 }
 
