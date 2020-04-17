@@ -50,8 +50,7 @@ header a {
     box-sizing: border-box;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .home__box h3 {

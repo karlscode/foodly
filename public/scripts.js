@@ -3,9 +3,10 @@ const cards = document.querySelectorAll('.card')
 
 for (let card of cards) {
     card.addEventListener("click", function() {
-        const recipeModal = card.getAttribute("recipes_modal")
+        const imgModal = card.getAttribute("img__modal")
         modalOverlay.classList.add('active')
-        modalOverlay.querySelector("iframe").src = recipeModal
+
+        modalOverlay.querySelector("img_modal").src = imgModal
     })
 }
 

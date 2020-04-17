@@ -7,7 +7,7 @@
 {% block content %}
     <section class=cards>
         {% for recipe in recipes %}
-            <div class="card" recipes_modal="{{ recipe.recipe }}"}>
+            <div class="card" img__modal="{{ recipe.src }}", title__modal="{{ recipe.title }}">
                 <div class="card__image-container">
                     <img src="{{ recipe.src }}" alt="Picture of {{ recipe.title }}">
                 </div>
